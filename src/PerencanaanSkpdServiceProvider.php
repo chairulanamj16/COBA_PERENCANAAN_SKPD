@@ -1,6 +1,6 @@
 <?php
 
-namespace Vendor\PerencanaanSkpd;
+namespace Caj16\PerencanaanSkpd;
 
 use Illuminate\Support\ServiceProvider;
 
