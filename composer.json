@@ -1,0 +1,15 @@
+{
+    "name": "caj16/perencanaan_skpd",
+    "description": "Package laravel untuk perencanaan SKPD di mana ada data DPA dan realisasinya",
+    "license": "ikbnusantara.com",
+    "autoload": {
+        "psr-4": {
+            "Caj16\\PerencanaanSkpd\\": "src/"
+        }
+    },
+    "authors": [{
+        "name": "Chairul Anam",
+        "email": "chairulanamart16@gmail.com"
+    }],
+    "require": {}
+}
