@@ -16,6 +16,9 @@ class PerencanaanSkpdServiceProvider extends ServiceProvider
 
         // Load views
         $this->loadViewsFrom(__DIR__ . '/../Views', 'surat-masuk');
+        $this->publishes([
+            __DIR__ . '/../Migrations' => database_path('migrations'),
+        ], 'perencanaan-migrations');
     }
 
     public function register()
